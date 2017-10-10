@@ -116,7 +116,6 @@ GameObject:
   - component: {fileID: 20456585172680906}
   - component: {fileID: 124061036261629660}
   - component: {fileID: 92644261221694604}
-  - component: {fileID: 81528739796144176}
   m_Layer: 0
   m_Name: Camera1ere
   m_TagString: Untagged
@@ -241,7 +240,6 @@ GameObject:
   - component: {fileID: 20171291555892620}
   - component: {fileID: 124024542045970728}
   - component: {fileID: 92623203142989790}
-  - component: {fileID: 81314521661898796}
   m_Layer: 0
   m_Name: Camera3eme
   m_TagString: Untagged
@@ -472,20 +470,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!81 &81314521661898796
-AudioListener:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1829681100102628}
-  m_Enabled: 1
---- !u!81 &81528739796144176
-AudioListener:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1139938513172046}
-  m_Enabled: 1
 --- !u!92 &92623203142989790
 Behaviour:
   m_ObjectHideFlags: 1

@@ -32,6 +32,7 @@ public class joueur : NetworkBehaviour {
         rgbd = GetComponent<Rigidbody>();
         vieJoueur = GetComponent<hpPlayer>();
         enVie = true;
+        
         if (!isLocalPlayer)
         {
             Image[] im = GetComponentsInChildren<Image>();
